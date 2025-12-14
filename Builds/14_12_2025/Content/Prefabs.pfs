@@ -1,0 +1,227 @@
+{
+  "Version": "0.1.0",
+  "Settings": {
+    "SamplerState": "PointClamp",
+    "Rotation": "Degrees"
+  },
+  "Prefabs": [
+    {
+      "Name": "Player",
+      "Components": [
+        {
+          "Name": "Rectangle",
+          "Id": "Collider",
+          "Properties": [
+            {
+              "Name": "OffsetX",
+              "Type": "Float",
+              "Value": -3
+            },
+            {
+              "Name": "OffsetY",
+              "Type": "Float",
+              "Value": -14
+            },
+            {
+              "Name": "Width",
+              "Type": "Float",
+              "Value": 6
+            },
+            {
+              "Name": "Height",
+              "Type": "Float",
+              "Value": 14
+            },
+            {
+              "Name": "ColorR",
+              "Type": "Int",
+              "Value": 15
+            },
+            {
+              "Name": "ColorG",
+              "Type": "Int",
+              "Value": 100
+            },
+            {
+              "Name": "ColorB",
+              "Type": "Int",
+              "Value": 100
+            },
+            {
+              "Name": "ColorA",
+              "Type": "Int",
+              "Value": 150
+            }
+          ]
+        },
+        {
+          "Name": "Texture2D",
+          "Id": "",
+          "Properties": [
+            {
+              "Name": "TexturePath",
+              "Type": "FilePath",
+              "Value": "Entities\\Player1\\Player1Idle1.png"
+            },
+            {
+              "Name": "OriginX",
+              "Type": "Float",
+              "Value": 8
+            },
+            {
+              "Name": "OriginY",
+              "Type": "Float",
+              "Value": 16
+            }
+          ]
+        },
+        {
+          "Name": "Rectangle",
+          "Id": "OnGroundCollider",
+          "Properties": [
+            {
+              "Name": "OffsetX",
+              "Type": "Float",
+              "Value": -3
+            },
+            {
+              "Name": "OffsetY",
+              "Type": "Float",
+              "Value": 0
+            },
+            {
+              "Name": "Width",
+              "Type": "Float",
+              "Value": 6
+            },
+            {
+              "Name": "Height",
+              "Type": "Float",
+              "Value": 1
+            },
+            {
+              "Name": "ColorR",
+              "Type": "Int",
+              "Value": 100
+            },
+            {
+              "Name": "ColorG",
+              "Type": "Int",
+              "Value": 0
+            },
+            {
+              "Name": "ColorB",
+              "Type": "Int",
+              "Value": 100
+            },
+            {
+              "Name": "ColorA",
+              "Type": "Int",
+              "Value": 150
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Components": [
+    {
+      "Name": "Transform2D",
+      "Id": "",
+      "Properties": [
+        {
+          "Name": "PositionX",
+          "Type": "Float",
+          "Value": 0
+        },
+        {
+          "Name": "PositionY",
+          "Type": "Float",
+          "Value": 0
+        },
+        {
+          "Name": "Rotation",
+          "Type": "Float",
+          "Value": 0
+        },
+        {
+          "Name": "ScaleX",
+          "Type": "Float",
+          "Value": 1
+        },
+        {
+          "Name": "ScaleY",
+          "Type": "Float",
+          "Value": 1
+        }
+      ]
+    },
+    {
+      "Name": "Texture2D",
+      "Id": "",
+      "Properties": [
+        {
+          "Name": "TexturePath",
+          "Type": "FilePath",
+          "Value": ""
+        },
+        {
+          "Name": "OriginX",
+          "Type": "Float",
+          "Value": 0
+        },
+        {
+          "Name": "OriginY",
+          "Type": "Float",
+          "Value": 0
+        }
+      ]
+    },
+    {
+      "Name": "Rectangle",
+      "Id": "",
+      "Properties": [
+        {
+          "Name": "OffsetX",
+          "Type": "Float",
+          "Value": 0
+        },
+        {
+          "Name": "OffsetY",
+          "Type": "Float",
+          "Value": 0
+        },
+        {
+          "Name": "Width",
+          "Type": "Float",
+          "Value": 1
+        },
+        {
+          "Name": "Height",
+          "Type": "Float",
+          "Value": 1
+        },
+        {
+          "Name": "ColorR",
+          "Type": "Int",
+          "Value": 255
+        },
+        {
+          "Name": "ColorG",
+          "Type": "Int",
+          "Value": 255
+        },
+        {
+          "Name": "ColorB",
+          "Type": "Int",
+          "Value": 255
+        },
+        {
+          "Name": "ColorA",
+          "Type": "Int",
+          "Value": 255
+        }
+      ]
+    }
+  ]
+}

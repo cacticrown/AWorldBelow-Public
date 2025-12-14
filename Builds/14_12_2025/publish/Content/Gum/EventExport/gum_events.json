@@ -1,0 +1,41 @@
+{
+  "UserEvents": {
+    "e9add9380efaffa9ae319ecd3282844425caeb0257b553578df0faf7d5825135": [
+      {
+        "NewName": "PauseMenu.ButtonStandardInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-12-12T20:09:59.4973798Z"
+      },
+      {
+        "NewName": "PauseMenu.Restart",
+        "OldName": "PauseMenu.ButtonStandardInstance",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2025-12-12T20:10:11.8182195Z"
+      },
+      {
+        "NewName": "PauseMenu.Restart1",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-12-12T20:10:44.825009Z"
+      },
+      {
+        "NewName": "PauseMenu.Quit",
+        "OldName": "PauseMenu.Restart1",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2025-12-12T20:10:53.2452008Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "PauseMenu.Controls/ButtonStandard Restart in PauseMenu",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2025-12-12T20:20:31.7280003Z"
+      }
+    ]
+  }
+}
